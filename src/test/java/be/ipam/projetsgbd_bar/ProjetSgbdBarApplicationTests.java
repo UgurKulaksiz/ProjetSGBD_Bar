@@ -16,7 +16,6 @@ class ProjetSgbdBarApplicationTests {
     UtilisateurService utilisateurService;
     @Autowired
     RolesService rolesService;
-
     @Test
     void contextLoads() {
         List<Utilisateur> listUsers = utilisateurService.getAllUser();
